@@ -1,16 +1,12 @@
 import defaultCharacter from './domain.js';
 
-export class GameSavingData{};
-const defaultGame = new Game();
-export default defaultGame;
-
-class Game {
+export default class Game {
     start() {
         console.log('game started');
     }
 }
   
-class GameSavingData {
+export class GameSavingData {
 }
   
 function readGameSaving() {
